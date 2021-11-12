@@ -1,1 +1,44 @@
 
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #d3e6e6;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.box{
+    display: flex;
+    transform: rotate(270deg);
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 20px;
+    cursor: default;
+    height: 20px;
+    width: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: #f0ffff;
+    border-radius: 1.5px;
+    background: linear-gradient(145deg, #d1dbdb, #ffffff, #d1dbdb);
+    box-shadow:   0px 2px 0.4px 2px #b3bebe,
+                35px 35px 70px #606666,
+                -35px -35px 70px #ffffff;
+    transition: all 2s ease-in-out;
+}
+
+p:active{
+    background: linear-gradient(170deg, #d1dbdb, #ffffff, #d1dbdb);
+    box-shadow:   0px 2px 0.4px 2px #b3bebe,
+                35px 35px 70px #606666,
+                -35px -35px 70px #ffffff;
+}
+
